@@ -3,7 +3,7 @@ from .endpoints import API_PATH  # noqa: F401
 
 __version__ = "7.0.0.dev0"
 
-USER_AGENT_FORMAT = "{} PRAW/" + __version__
+USER_AGENT_FORMAT = "{}"
 
 MAX_IMAGE_SIZE = 512000
 MIN_JPEG_SIZE = 128
